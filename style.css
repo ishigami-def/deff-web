@@ -128,7 +128,7 @@ header .text-content .job{
 }
 .buttons{
   margin: 20px 0 0 50px;
-  z-index: 0;
+  z-index: 1;
 }
 .text-content .buttons button{
   outline: none;
@@ -191,7 +191,7 @@ header .media-icons{
     --webkit-backdrop-filter: blur(17px);
     border-right: 1px solid rgba(255, 255, 255, 0.7);
     transition: width 0.3s ease;
-    z-index: 1;
+    z-index: 2;
 }
 
 .sidebar:hover {
